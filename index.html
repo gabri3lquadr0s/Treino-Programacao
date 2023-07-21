@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game of Life Study</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Vida de Conway</h1>
+    </header>
+    <section>
+        <form>
+            <input type="number" id="res" name="res" placeholder="TAMANHO DAS CÉLULAS">
+            <input type="number" id="canW" name="canW" placeholder="LARGURA DO MAPA">
+            <input type="number" id="canH" name="canH" placeholder="ALTURA DO MAPA">
+        </form><br>
+        <button onclick="getStuff()">INSERIR VALORES</button>
+        <button onclick="setup()">COMEÇAR SIMULAÇÃO</button>
+        <p>O <strong>JOGO DA VIDA DE CONWAY</strong> é um automata representando o ciclo de vida das células, com o objetivo de reproduzir,<br>
+            através de regras simples, as alterações e mudanças em grupos de seres vivos. Depois de inserir os valores nos campos,<br>
+            aperte em <strong>INSERIR VALORES</strong> e depois em <strong>COMEÇAR SIMULAÇÃO</strong>.
+        </p>
+    </section><br><hr><br><br>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    background-color: cyan;
+    color: black;
+    text-decoration: bold;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
