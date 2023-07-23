@@ -1,2 +1,2 @@
-# Game-of-Life-Study
- Tentativa do Jogo da Vida em JS
+# Treinos de Programação
+Alguns pequenos projetos para treinar programação
