@@ -1,0 +1,24 @@
+.kanban {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.title {
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.dragging {
+    opacity: 0.5;
+}

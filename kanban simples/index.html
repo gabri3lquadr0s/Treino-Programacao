@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban Board</title>
+</head>
+<body>
+    <div class="addCard">
+        <input type="text" name="cardTitle" id="cardTitle">
+        <label for="cardTitle">Card Title</label><br />
+        <input type="radio" name="importance" id="low"> <label for="">Low</label>
+        <input type="radio" name="importance" id="mid"> <label for="">Mid</label>
+        <input type="radio" name="importance" id="high"> <label for="">High</label>
+        <input type="radio" name="importance" id="vhigh"> <label for="">Very High</label> <br /> <br />
+        <button onclick="createCard()">Create Card</button>
+    </div>
+
+
+    <div class="kanban">
+        <div class="title">
+            <h5>TODO</h5>
+            <div class="column" id="TODO">
+                <div class="item"></div>
+            </div>
+        </div>
+       
+        <div class="title">
+            <h5>DOING</h5>
+            <div class="column" id="DOING">
+                <div class="item"></div>
+            </div>
+        </div>
+      
+        <div class="title">
+            <h5>DONE</h5>
+            <div class="column" id="DONE">
+                <div class="item"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="cardManouver.js"></script>
+</body>
+</html>
